@@ -1,0 +1,22 @@
+{
+  "name": "twitch-rpg-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon src/index.js",
+    "build": "cross-env production=true webpack-cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^5.1.0",
+    "tmi.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/firebase": "^3.2.1",
+    "eslint": "^5.10.0",
+    "nodemon": "^1.18.8"
+  }
+}
